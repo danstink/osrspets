@@ -318,7 +318,7 @@ searchButton.onclick = async () => {
 		function renderBossKills(bossKills) {
 			bossKillsDiv.innerHTML = "";
 			const killDiv = document.createElement("div");
-			killDiv.textContent = `Signed in as ${usernameInput.value}`;
+			killDiv.textContent = `Loaded data from, ${usernameInput.value}.`;
 			killDiv.style.color = "green"; // Set the text color to green
 			bossKillsDiv.appendChild(killDiv);
 		}
